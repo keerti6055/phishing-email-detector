@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/phishing-email-tracker.git
+git clone https://github.com/keerti6055/phishing-email-tracker.git
 cd phishing-email-tracker
 
 2. Set Up the Python Backend

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Detector",
+  "version": "1.0",
+  "description": "Uses a Python-based AI to detect phishing emails.",
+  "permissions": [
+    "storage" 
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
